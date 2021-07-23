@@ -6,20 +6,20 @@ const stasys = new Taxi('Stasys');
 const ona = new Taxi('Ona');
 
 jonas.intro();
-// Sveiki, as Jonas ir kilometro kaina su manimi yra 1.00 Eur.
+// // Sveiki, as Jonas ir kilometro kaina su manimi yra 1.00 Eur.
 maryte.intro();
-// Sveiki, as Maryte ir kilometro kaina su manimi yra 1.00 Eur.
+// // Sveiki, as Maryte ir kilometro kaina su manimi yra 1.00 Eur.
 stasys.intro();
-// Sveiki, as Stasys ir kilometro kaina su manimi yra 1.00 Eur.
+// // Sveiki, as Stasys ir kilometro kaina su manimi yra 1.00 Eur.
 ona.intro();
-// Sveiki, as Ona ir kilometro kaina su manimi yra 1.00 Eur.
+// // Sveiki, as Ona ir kilometro kaina su manimi yra 1.00 Eur.
 
 jonas.updatePrice(0.9);
-// Jonas nustate nauja kilometro kaina - 0.90 Eur.
+// // Jonas nustate nauja kilometro kaina - 0.90 Eur.
 ona.updatePrice(2);
-// Ona nustate nauja kilometro kaina - 2.00 Eur.
+// // Ona nustate nauja kilometro kaina - 2.00 Eur.
 maryte.updatePrice(1.2);
-// Maryte nustate nauja kilometro kaina - 1.20 Eur.
+// // Maryte nustate nauja kilometro kaina - 1.20 Eur.
 
 jonas.ride(5);
 maryte.ride(7);
@@ -55,7 +55,7 @@ maryte.stats();
 stasys.stats();
 // Stasys nuvaziavo 30 km ir uzdirbo 30.00 Eur.
 ona.stats();
-// Ona nuvaziavo 63 km ir uzdirbo 126.00 Eur.
+// Ona nuvaziavo 33 km ir uzdirbo 66.00 Eur.
 
 jonas.updatePrice(1.5);
 // Jonas nustate nauja kilometro kaina - 1.50 Eur.
@@ -80,4 +80,4 @@ maryte.stats();
 stasys.stats();
 // Stasys nuvaziavo 51 km ir uzdirbo 61.50 Eur.
 ona.stats();
-// Ona nuvaziavo 79 km ir uzdirbo 162.80 Eur.
+// Ona nuvaziavo 33 km ir uzdirbo 102.80 Eur.
